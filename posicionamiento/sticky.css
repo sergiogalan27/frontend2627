@@ -1,0 +1,25 @@
+html{
+    font-family: cursive;
+}
+h2{
+    position: sticky;
+    top: 0;
+}
+/*Use "." to select elements with a specific class name.*/
+.poem_romantic{
+    position:relative;
+    left:80px;
+    background-color:lightblue;
+}
+.poem_no_romantic{
+    background-color:lightgreen;
+}
+
+h2{
+    color:blue;
+}
+
+div{
+    width:40%;
+    border:2 px solid black;
+}
