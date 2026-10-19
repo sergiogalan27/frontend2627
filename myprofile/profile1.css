@@ -1,0 +1,13 @@
+html{
+    font-family: cursive; 
+}
+header{
+    background-color: #f2f2f2;
+    text-align: center;
+}
+#header-pic{
+    width: 10%;
+    height: 10%;
+    border: 4px solid #000;
+    border-radius: 50%;
+}
