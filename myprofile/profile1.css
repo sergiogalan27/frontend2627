@@ -1,8 +1,11 @@
 html{
     font-family: cursive; 
 }
+body{
+    background-color: #047af8;
+}
 header{
-    background-color: #f2f2f2;
+    background-color: #0afff3;
     text-align: center;
 }
 #header-pic{
@@ -10,4 +13,10 @@ header{
     height: 10%;
     border: 4px solid #000;
     border-radius: 50%;
+}
+header > nav > ul{
+    background-color: #0afff3;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
 }
