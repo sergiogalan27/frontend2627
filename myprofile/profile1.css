@@ -1,20 +1,24 @@
-html{
-    font-family: cursive; 
+html {
+    font-family: cursive;
 }
-body{
+
+body {
     background-color: #047af8;
 }
-header{
+
+header {
     background-color: #0afff3;
     text-align: center;
 }
-#header-pic{
+
+#header-pic {
     width: 10%;
     height: 10%;
     border: 4px solid #000;
     border-radius: 50%;
 }
-header > nav > ul{
+
+header>nav>ul {
     background-color: #fbff0a;
     list-style-type: none;
     margin-bottom: 10px;
@@ -22,7 +26,29 @@ header > nav > ul{
     justify-content: space-evenly;
 }
 
-#my-projects > div{
-background-color: #0afff3;
+#my-projects >div {
+    background-color: #fbff0a;
+    display: flex;
+    border: 1px solid #000;
 
+}
+
+#my-projects>div>div:nth-child(even) {
+    background-color: #0afff3;
+    border: 1px solid #000;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background-image: url(../images/champions.png);
+    background-size:cover;
+}
+
+#my-projects>div>div:nth-child(odd) {
+    background-color: #0afff3;
+    border: 1px solid #000;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background-image: url(../images/nations.jpg);
+    background-size:cover;
 }
