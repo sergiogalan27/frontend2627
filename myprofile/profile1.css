@@ -31,6 +31,7 @@ header>nav>ul {
     display: flex;
     border: 1px solid #000;
 
+    justify-content: space-between;
 }
 
 #my-projects>div>div:nth-child(even) {
@@ -51,4 +52,10 @@ header>nav>ul {
     margin: 10px;
     background-image: url(../images/nations.jpg);
     background-size:cover;
+}
+
+.project{
+    flex-grow: 1;
+    flex-basis: 0;
+    flex-shrink: 1;
 }
